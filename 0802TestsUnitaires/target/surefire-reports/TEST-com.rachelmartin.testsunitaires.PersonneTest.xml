@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="8" failures="2" name="com.rachelmartin.testsunitaires.PersonneTest" time="0.022" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.4+10-LTS"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.4\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Administrateur\Documents\NetBeansProjects\0208TestsUnitaires"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="test" value="com.rachelmartin.testsunitaires.PersonneTest"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Administrateur\Documents\NetBeansProjects\0208TestsUnitaires"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.4+10-LTS"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="C:\netbeans\java\maven\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.4\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Brackets\command;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\wamp64\bin\php\php7.2.18;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Java\jdk-11.0.4\bin;C:\Users\Administrateur\AppData\Local\Microsoft\WindowsApps;;C:\Users\Administrateur\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Administrateur\AppData\Roaming\npm;C:\Users\Administrateur\AppData\Roaming\Composer\vendor\bin;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Administrateur"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="Administrateur"/>
+    <property name="java.class.path" value="C:\netbeans\java\maven\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=com.rachelmartin.testsunitaires.PersonneTest -Dmaven.ext.class.path=C:\netbeans\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 surefire:test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.4"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.4"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\netbeans\java\maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2019-07-16"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.rachelmartin.testsunitaires.PersonneTest" name="com.rachelmartin.testsunitaires.PersonneTest.testGetNomFromConstructor" time="0.002"/>
+  <testcase classname="com.rachelmartin.testsunitaires.PersonneTest" name="com.rachelmartin.testsunitaires.PersonneTest.testSetNomparConstructeur" time="0.018">
+    <failure message="expected: &lt;George&gt; but was: &lt;nadia&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;George&gt; but was: &lt;nadia&gt;
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:54)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:184)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:179)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:508)
+	at com.rachelmartin.testsunitaires.PersonneTest.testSetNomparConstructeur(PersonneTest.java:132)
+</failure>
+    <system-out>setNom
+</system-out>
+  </testcase>
+  <testcase classname="com.rachelmartin.testsunitaires.PersonneTest" name="com.rachelmartin.testsunitaires.PersonneTest.testGetAgeViaConstructeur" time="0"/>
+  <testcase classname="com.rachelmartin.testsunitaires.PersonneTest" name="com.rachelmartin.testsunitaires.PersonneTest.testSetAge" time="0"/>
+  <testcase classname="com.rachelmartin.testsunitaires.PersonneTest" name="com.rachelmartin.testsunitaires.PersonneTest.testSetNom" time="0"/>
+  <testcase classname="com.rachelmartin.testsunitaires.PersonneTest" name="com.rachelmartin.testsunitaires.PersonneTest.testGetNom" time="0"/>
+  <testcase classname="com.rachelmartin.testsunitaires.PersonneTest" name="com.rachelmartin.testsunitaires.PersonneTest.testGetAge" time="0.002">
+    <failure message="The test case is a prototype." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:84)
+	at com.rachelmartin.testsunitaires.PersonneTest.testGetAge(PersonneTest.java:51)
+</failure>
+    <system-out>getAge
+</system-out>
+  </testcase>
+  <testcase classname="com.rachelmartin.testsunitaires.PersonneTest" name="com.rachelmartin.testsunitaires.PersonneTest.testSetAgeNegatif" time="0"/>
+</testsuite>

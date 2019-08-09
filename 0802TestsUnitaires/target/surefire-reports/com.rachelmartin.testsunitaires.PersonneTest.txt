@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: com.rachelmartin.testsunitaires.PersonneTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec <<< FAILURE!
+com.rachelmartin.testsunitaires.PersonneTest.testSetNomparConstructeur()  Time elapsed: 0.018 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <George> but was: <nadia>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:54)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:184)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:179)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:508)
+	at com.rachelmartin.testsunitaires.PersonneTest.testSetNomparConstructeur(PersonneTest.java:132)
+
+com.rachelmartin.testsunitaires.PersonneTest.testGetAge()  Time elapsed: 0.002 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:84)
+	at com.rachelmartin.testsunitaires.PersonneTest.testGetAge(PersonneTest.java:51)
+
